@@ -10,7 +10,6 @@ body {
 }
 /*------------------ HEADER--------------- */
 .menu-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -23,11 +22,35 @@ body {
   color: #404bbf;
 }
 
-.logo {
+.logo span {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
 }
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #2e2f42;
+}
+
 .address .link {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -37,4 +60,89 @@ body {
 .address .link:hover,
 .address .link:focus {
   color: #404bbf;
+}
+
+/*------------------ /HEADER--------------- */
+
+/*-------------------- HERO--------------- */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.08;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+}
+/*-------------------- /HERO--------------- */
+/*-------------------- FEATURES--------------- */
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+/*-------------------- /FEATURES--------------- */
+
+/*-------------------- WHAT ARE WE DOING--------------- */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+}
+/*-------------------- /WHAT ARE WE DOING--------------- */
+/*-------------------- FOOTER--------------- */
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #f4f4fd;
 }
