@@ -124,17 +124,14 @@ body {
   font-style: normal;
 }
 
-.contact-email,
-.contact-phone-number {
+.contact-us-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
-.contact-email:hover,
-.contact-email:focus,
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.contact-us-link:hover,
+.contact-us-link:focus {
   color: var(--accent-color);
 }
 
