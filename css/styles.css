@@ -100,10 +100,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--primary-text-color);
+  color: var(--secondary-accent-color);
 }
 
-.accent {
+.accent-logo-header {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -114,7 +114,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--secondary-accent-color);
+  color: var(--secondary-text-color);
 }
 
 .contact-email,
@@ -171,7 +171,7 @@ body {
 /*-------------------- FOOTER--------------- */
 
 .footer {
-  background-color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
 }
 .footer-description {
   line-height: 1.5;
@@ -183,6 +183,19 @@ body {
 .logo-footer {
   font-family: var(--secondary-font);
   font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-accent-color);
+}
+.accent-logo-footer {
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
