@@ -78,6 +78,10 @@ body {
   background-color: var(--accent-color);
 }
 
+.content {
+  background-color: var(--primary-white-color);
+}
+
 /*-------------------- /COMPONENTS--------------- */
 /*------------------ HEADER--------------- */
 
@@ -172,9 +176,13 @@ body {
 }
 /*-------------------- /WHAT ARE WE DOING--------------- */
 
+/*-------------------- OUR TEAM--------------- */
+
 .our-team {
-  background-color: var(--primary-white-color);
+  background-color: var(--background-color);
 }
+/*-------------------- /OUR TEAM--------------- */
+
 /*-------------------- FOOTER--------------- */
 
 .footer {
